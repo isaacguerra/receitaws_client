@@ -1,11 +1,3 @@
-# Gem ReceitaWS API - Consulta de Dados de CNPJ
-
-Mantenha seu sistema sempre atualizado com dados fiéis das empresas que se relacionam com você.
-
-## Versão Beta
-
-Uma Gem simples para recuperação de informações de empresas através de seu CNPJ utilizando Webservice da [ReceitaWS](https://receitaws.com.br/) versão **Comercial** e **Gratis**. Acreditamos que estas informações devem estar acessíveis a qualquer indivíduo ou empresa, e sem nenhum custo.
-
 Acesso a documentação de desenvolvimento da [https://receitaws.com.br/](https://receitaws.com.br/api)
 
 ## Instalando
