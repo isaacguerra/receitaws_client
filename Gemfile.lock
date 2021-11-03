@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    receitaws_client (0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  receitaws_client!
+
+BUNDLED WITH
+   1.17.2
