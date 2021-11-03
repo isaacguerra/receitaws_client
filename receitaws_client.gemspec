@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors                 = ['Isaac Guerra']
   spec.email                   = ['guerra.isaac@gmail.com']
   spec.summary                = 'Gem ReceitaWSClient API COM PLANO - Consulta de Dados de CNPJ'
-  spec.description            = 'Uma Gem simples para recuperação de informações de empresas através de seu CNPJ utilizando Webservice da ReceitaWS - https://receitaws.com.br/ versão Comercial. Acreditamos que estas informações devem estar acessíveis a qualquer indivíduo ou empresa, e sem nenhum custo.'
+  spec.description            = 'Client Rails não oficial do Webservice da ReceitaWS - https://receitaws.com.br/'
   spec.homepage               = 'https://github.com/isaacguerra/receitaws_client'
   spec.license                = 'MIT'
 

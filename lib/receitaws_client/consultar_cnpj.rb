@@ -20,7 +20,8 @@ module ReceitawsClient
           return ReceitawsClient::Cnpj.new(result)
         rescue StandardError
           Rails.logger.info 'ERROR - Serviço ReceitaWS não retornou a solicitação!'
-          return ReceitawsClient::Cnpj.new('status' => 'error', 'message' => 'ERROR - Serviço ReceitaWS não retornou a solicitação!')
+          result = { 'status' => 'error', 'message' => 'ERROR - Serviço ReceitaWS não retornou a solicitação!' }
+          return ReceitawsClient::Cnpj.new(result)
         end
       end
     end
