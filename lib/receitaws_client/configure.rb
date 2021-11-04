@@ -20,6 +20,12 @@ module ReceitawsClient
     # Parâmetros iniciais
     PLANO           = 'gratis'
 
+    # Mockar durante os desenvolvimento
+    MOCK_DEVELOPMENT = false
+
+    # Mockar durante os testes
+    MOCK_TEST       = false
+
     # Endereço do WeService
     attr_writer :url
 
@@ -35,8 +41,14 @@ module ReceitawsClient
     # Obrigatório, numérico, Tempo de espera pela resposta do WeService em segundos
     attr_writer :timeout
 
-    # Obrigatório, numérico, Tempo de espera pela resposta do WeService em segundos
+    # define o plano contratado
     attr_writer :plano
+
+    # mockar durenate o desenvolvimento
+    attr_writer :mock_development
+
+    # mockar durenate os teste
+    attr_writer :mock_test
 
     # Comando que recebe as configurações
     def configure
@@ -73,6 +85,16 @@ module ReceitawsClient
     # Definir plano
     def plano
       @plano ||= PLANO
+    end
+
+    # Definir mock
+    def mock_development
+      @mock_development ||= MOCK_DEVELOPMENT
+    end
+
+    # Definir mock
+    def mock_test
+      @mock_test ||= MOCK_TEST
     end
 
     # Definir url que será utilizado

@@ -42,6 +42,11 @@ Receitaws.configure do |config|
   # plano - comenrcial ou gratis
   config.plano = 'gratis'
 
+  #
+  # dados mockados para development e testes
+  config.mock_test = true
+  config.mock_development = true
+
 end
 ```
 

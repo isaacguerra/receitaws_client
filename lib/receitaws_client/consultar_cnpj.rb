@@ -6,6 +6,10 @@ module ReceitawsClient
     # cnpj: obrigatório, numérico, o CNPJ a ser pesquisado
     # Retonar um obejto do tipo Receitaws::Cnpj
     def self.executar(cnpj)
+      if (Rails.env.development? && ReceitawsClient.mock_development) || (Rails.env.test? && ReceitawsClient.mock_test)
+        return ReceitawsClient::Mock::ConsultarCnpj.executar cnpj
+      end
+
       Rails.logger.tagged 'ReceitawsClient' do
         cnpj = cnpj.to_s.gsub(/[^0-9A-Za-z]/, '')
         unless ReceitawsClient::Cnpj.valida_digito_cnpj(cnpj)
