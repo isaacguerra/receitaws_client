@@ -30,7 +30,7 @@ module ReceitawsClient
       @numero = result['numero']
       @cep = result['cep']
       @municipio = result['municipio']
-      @abertura = result['abertura']
+      @data_de_criacao = result['abertura']
       @data_situacao = result['data_situacao']
       @situacao = result['situacao']
       @complemento = result['complemento']
