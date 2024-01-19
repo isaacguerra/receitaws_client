@@ -10,7 +10,7 @@ module ReceitawsClient
           result =  {'status' => 'ok', 
             'uf' => "MG", 
             'telefone' => "(99) 9999-9999", 
-            'email' => "contatomacrocont.com.br", 
+            'email' => "contato@macrocont.com.br",
             'fantasia' => "UMBRELLA", 
             'nome' => "UMBRELLA INC",
             'cnpj' => 'cnpj', 

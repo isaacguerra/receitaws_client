@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    receitaws_client (0.0.91)
+    receitaws_client (0.0.92)
 
 GEM
   remote: https://rubygems.org/
