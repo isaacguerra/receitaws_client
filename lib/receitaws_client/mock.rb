@@ -24,6 +24,7 @@ module ReceitawsClient
             'situacao' => "ATIVA", 
             'complemento' => "ANDAR 6 SALA 2",
             'atividade_principal' => [{:code => "62.03-1-00", :text => "Desenvolvimento e licenciamento de programas de computador não-customizáveis"}],
+            'porte' => 'MICRO EMPRESA',
             'atividades_secundarias' => [ 
                         {:code => "58.11-5-00", :text => "Edição de livros"}, 
                         {:code => "62.02-3-00", :text => "Desenvolvimento e licenciamento de programas de computador customizáveis"}, 

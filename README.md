@@ -27,7 +27,7 @@ Receitaws.configure do |config|
 
   #
   # Cadastrar token fornecido no cadastro na ReceitaWS
-  config.token = 'sustitual pelo seu token'
+  config.token = 'sustitua pelo seu token'
 
   #
   # Opções de ambiente
@@ -39,7 +39,7 @@ Receitaws.configure do |config|
   config.timeout = 10
 
   #
-  # plano - comenrcial ou gratis
+  # plano - comercial ou gratis
   config.plano = 'gratis'
 
   #
@@ -144,6 +144,11 @@ cnpj.atividades[0][:code]
 # Somente os números dos CNAES sem pontos e traços
 cnpj.cnaes
 
+# Porte
+cnpj.porte
+
+# Data de abertura
+cnpj.data_de_abertura
 ```
 ## Mock para Testes 
 

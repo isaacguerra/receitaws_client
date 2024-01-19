@@ -3,7 +3,8 @@
 module ReceitawsClient
   class Cnpj
     attr_reader :status, :message, :nome, :uf, :telefone, :email, :fantasia, :cnpj, :bairro, :logradouro, :numero,
-                :cep, :municipio, :abertura, :data_situacao, :complemento, :atividades, :cnaes, :situacao
+                :cep, :municipio, :data_de_abertura, :data_situacao, :complemento, :atividades, :cnaes, :situacao,
+                :porte
 
     def initialize(result = nil)
       if result.nil?
@@ -30,7 +31,8 @@ module ReceitawsClient
       @numero = result['numero']
       @cep = result['cep']
       @municipio = result['municipio']
-      @data_de_criacao = result['abertura']
+      @data_de_abertura = result['abertura']
+      @porte = result['porte']
       @data_situacao = result['data_situacao']
       @situacao = result['situacao']
       @complemento = result['complemento']
