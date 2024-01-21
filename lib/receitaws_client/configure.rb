@@ -2,7 +2,7 @@
 
 module ReceitawsClient
   module Configure
-    # Endereço do WeService
+    # Endereço do WebService
     URL_RECEITAWS   = 'https://www.receitaws.com.br'
 
     # Parâmetros iniciais
@@ -26,7 +26,7 @@ module ReceitawsClient
     # Mockar durante os testes
     MOCK_TEST       = false
 
-    # Endereço do WeService
+    # Endereço do WebService
     attr_writer :url
 
     # Enviado pela ReceitaWS

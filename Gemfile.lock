@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    receitaws_client (0.0.9)
+    receitaws_client (0.0.93)
 
 GEM
   remote: https://rubygems.org/
@@ -14,4 +14,4 @@ DEPENDENCIES
   receitaws_client!
 
 BUNDLED WITH
-   1.17.2
+   2.5.5
